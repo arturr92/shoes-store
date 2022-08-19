@@ -1,14 +1,18 @@
-import '../components/NavBar.css';
+import '../NavBar/NavBar.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { CartWidget } from '../CartWidget/CartWidget';
 
 export const NavBar = () => {
     return (
         <Navbar className='navBar' sticky='top' expand="lg" collapseOnSelect>
             <Navbar.Brand>
-                Shoes Store
+                <div className='brand'>
+                    <CartWidget />
+                    Shoes Store
+                </div>
             </Navbar.Brand>
 
             <Navbar.Toggle />

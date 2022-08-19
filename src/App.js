@@ -1,12 +1,18 @@
 import { Fragment } from "react";
-import { NavBar } from "./components/NavBar";
+import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
+import { NavBar } from "./components/NavBar/NavBar";
 
 
 function App() {
   return (
     <Fragment>
       <NavBar />
-      <h1 style={{textAlign:"center"}}>Nuestros Productos</h1>
+      <ItemListContainer 
+        greeting = "Bienvenidos a Shoes Store!"
+        color = "#1B4F72"
+        text = "center"
+        size = "4rem"
+      />
     </Fragment>
   );
 }

@@ -3,12 +3,18 @@
 }
 
 .nav {
-    margin-left: 15rem;
+    margin-left: 12rem;
     gap: 2rem;
 }
 
 .nav a {
     color: black;
+}
+
+.brand {
+    display: flex;
+    margin-left: 2rem;
+    gap: 1.5rem;
 }
 
 .icon {
