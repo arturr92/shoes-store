@@ -1,11 +1,10 @@
-import { Fragment } from "react";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { NavBar } from "./components/NavBar/NavBar";
 
 
 function App() {
   return (
-    <Fragment>
+    <>
       <NavBar />
       <ItemListContainer 
         greeting = "Bienvenidos a Shoes Store!"
@@ -13,7 +12,7 @@ function App() {
         text = "center"
         size = "4rem"
       />
-    </Fragment>
+    </>
   );
 }
 

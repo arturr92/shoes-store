@@ -1,0 +1,16 @@
+.counter {
+    width: fit-content;
+    background: lightblue;
+    margin: auto;
+    padding: 2rem 5rem;
+    text-align: center;
+}
+
+.counter-span {
+    background: white;
+    padding: 1rem 3rem;
+}
+
+.button {
+    margin-top: 1rem;
+}
