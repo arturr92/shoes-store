@@ -7,7 +7,7 @@ function App() {
     <>
       <NavBar />
       <ItemListContainer 
-        greeting = "Bienvenidos a Shoes Store!"
+        greeting = "Bienvenidos a Sneakers Addict!"
         color = "#1B4F72"
         text = "center"
         size = "4rem"

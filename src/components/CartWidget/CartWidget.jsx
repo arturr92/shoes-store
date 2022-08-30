@@ -1,9 +1,8 @@
-import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoePrints } from '@fortawesome/free-solid-svg-icons'
+import Logo2 from '../../logo2.svg';
 
 export const CartWidget = () => {
     return <div>
-        <FontAwesomeIcon icon={faShoePrints} />
+        <img src={Logo2} alt="Logo" width={80} height={70} />
+        Sneakers Addict
         </div>;
 };

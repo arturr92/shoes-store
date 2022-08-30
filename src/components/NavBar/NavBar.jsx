@@ -11,7 +11,6 @@ export const NavBar = () => {
             <Navbar.Brand>
                 <div className='brand'>
                     <CartWidget />
-                    Shoes Store
                 </div>
             </Navbar.Brand>
 
