@@ -1,0 +1,8 @@
+.nav__brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    gap: 2rem;
+    margin-right: 3rem;
+}
