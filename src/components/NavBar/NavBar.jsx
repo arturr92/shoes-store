@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../NavBar/NavBar.css';
-
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import { CartWidget } from '../CartWidget/CartWidget';
@@ -18,11 +18,11 @@ export const NavBar = () => {
         <nav className='nav'>
                 <CartWidget className='brand'/>
                 <div className={`nav__links  ${clicked ? 'active' : ''}`}>
-                        <a onClick={handleClick} href="/">Inicio</a>
-                        <a onClick={handleClick} href="/">Productos</a>
-                        <a onClick={handleClick} href="/">Novedades</a>
-                        <a onClick={handleClick} href="/">Nosotros</a>
-                        <a onClick={handleClick} href="/">Contactos</a>
+                        <Link to="/">Inicio</Link>
+                        <Link to="/productos">Productos</Link>
+                        <Link to="/novedades">Novedades</Link>
+                        <Link to="/nosotros">Nosotros</Link>
+                        <Link to="/contactos">Contactos</Link>
                         <FontAwesomeIcon icon={faCartShopping} className='icon' />
                         <FontAwesomeIcon icon={faUser} className='icon' />
                 </div>

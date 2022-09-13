@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom';
 import { ItemDetail } from '../ItemDetail/ItemDetail';
 
 export const ItemDetailContainer = () => {
 
     const [data, setData] = useState([]);
-
+    const { detailId } = useParams();
+    console.log(detailId);
     useEffect( () => {
         detailData();
     }, []);
@@ -19,8 +21,12 @@ export const ItemDetailContainer = () => {
         }
     }
 
+
     return (
         <div>
+            {
+                <h1>{detailId}</h1>
+            }
             <ItemDetail detailData={data} />
         </div>
     )
