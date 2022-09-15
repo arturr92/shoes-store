@@ -1,8 +1,16 @@
 import '../ItemDetail/ItemDetail.css';
-
+import { ItemCount } from '../ItemCount/ItemCount';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 export const ItemDetail = ({detailData}) => {
+
+    const [goToCart, setGoToCart] = useState(false);
+
+    const onAdd = () => {
+        setGoToCart(true);
+    } 
     
     return (
         <div className='container__detail'>
@@ -22,7 +30,15 @@ export const ItemDetail = ({detailData}) => {
 
                                 <p>{detail.model}</p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae hic veritatis a! Nostrum nobis ab, illo magnam quae vero.</p>
-                                <button className="cart">Agregar al carrito</button>
+                                {
+                                    goToCart 
+                                    ? <Link to='/cart'style={{color:'blue'}}>Terminar compra</Link>
+                                    : <ItemCount
+                                        initial = {1}
+                                        stock = {8}
+                                        onAdd = {onAdd}
+                                        />
+                                }
                         </div>
             </div>)})
             }

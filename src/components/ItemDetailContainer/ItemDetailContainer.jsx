@@ -6,7 +6,7 @@ export const ItemDetailContainer = () => {
 
     const [data, setData] = useState([]);
     const { detailId } = useParams();
-    console.log(detailId);
+    
     useEffect( () => {
         detailData();
     }, []);
@@ -21,12 +21,8 @@ export const ItemDetailContainer = () => {
         }
     }
 
-
     return (
         <div>
-            {
-                <h1>{detailId}</h1>
-            }
             <ItemDetail detailData={data} />
         </div>
     )
