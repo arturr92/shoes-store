@@ -13,14 +13,16 @@ export const ItemDetailContainer = () => {
 
     const detailData = async () => {
         try {
-            const response = await fetch('/detail.json');
+            const response = await fetch('/data.json');
             const detailJson = await response.json();
-            setData(detailJson);
+            console.log(detailJson)
+            setData(detailJson.find(product => product.id === detailId));
+            console.log(setData(data))
         } catch (error) {
             console.error(error);
         }
     }
-
+    
     return (
         <div>
             <ItemDetail detailData={data} />

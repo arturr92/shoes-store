@@ -1,5 +1,8 @@
-import { Link } from 'react-router-dom';
 import '../Item/Item.css';
+
+import { Link } from 'react-router-dom';
+import React from 'react';
+
 
 export const Item = ({img, brand, model, price, alt, id}) => {
 
