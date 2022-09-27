@@ -7,15 +7,15 @@ import { Link } from 'react-router-dom';
 
 
 export const ItemDetail = ({detailData}) => {
-    console.log(detailData)
+    
     const [goToCart, setGoToCart] = useState(false);
     const {addProduct} = useCartContext();
-    console.log(detailData);
+    
     const onAdd = (quantity) => {
         setGoToCart(true);
         addProduct(detailData, quantity);
     } 
-
+    
     return (
         <div className='container__detail'>
             

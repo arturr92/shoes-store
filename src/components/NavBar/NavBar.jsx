@@ -5,9 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import { CartWidget } from '../CartWidget/CartWidget';
 import BurguerButton from '../BurguerButton/BurguerButton';
+import { useCartContext } from '../../context/CartContext';
 
 export const NavBar = () => {
     
+    const {totalProducts} = useCartContext();
+
     const [clicked, setClicked] = useState(false);
 
     const handleClick = () => {
@@ -23,8 +26,11 @@ export const NavBar = () => {
                         <Link to="/novedades">Novedades</Link>
                         <Link to="/nosotros">Nosotros</Link>
                         <Link to="/contactos">Contactos</Link>
-                        <FontAwesomeIcon icon={faCartShopping} className='icon' />
-                        <FontAwesomeIcon icon={faUser} className='icon' />
+                        <Link to="/cart">
+                            <FontAwesomeIcon icon={faCartShopping} className='icon' />
+                            <span>{totalProducts() || ''}</span>
+                        </Link>
+                        {/* <FontAwesomeIcon icon={faUser} className='icon' /> */}
                 </div>
                 <div className='burguer'>
                     <BurguerButton clicked ={clicked} handleClick={handleClick} />

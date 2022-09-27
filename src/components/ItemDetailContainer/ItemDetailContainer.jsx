@@ -15,9 +15,8 @@ export const ItemDetailContainer = () => {
         try {
             const response = await fetch('/data.json');
             const detailJson = await response.json();
-            console.log(detailJson)
-            setData(detailJson.find(product => product.id === detailId));
-            console.log(setData(data))
+            setData(detailJson.find(product => product.id === parseInt(detailId)));
+            
         } catch (error) {
             console.error(error);
         }
