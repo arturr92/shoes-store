@@ -5,7 +5,8 @@
         "model": "BLAZER MID 77",
         "price": 35299,
         "alt" : "BLAZER MID",
-        "img": "https://i.ibb.co/5vKF2mr/NBLAZERMID.webp"
+        "img": "https://i.ibb.co/5vKF2mr/NBLAZERMID.webp",
+        "category": "NIKE"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "model": "AIR MAX 90 SE",
         "price": 45999,
         "alt": "AIR MAX 90", 
-        "img": "https://i.ibb.co/LpD0LjK/NAIRMAX90.webp"
+        "img": "https://i.ibb.co/LpD0LjK/NAIRMAX90.webp",
+        "category": "NIKE"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "model": "SPACE HIPPIE 01",
         "price": 42999,
         "alt" : "Blazer Mid",
-        "img": "https://i.ibb.co/fv6L5v9/NSPACEHIPPIE.webp"
+        "img": "https://i.ibb.co/fv6L5v9/NSPACEHIPPIE.webp",
+        "category": "NIKE"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "model": "AIR MAX 1 NRG",
         "price": 50999,
         "alt" : "AIR MAX 1",
-        "img": "https://i.ibb.co/WWjMxSF/NAIRMAX1.webp"
+        "img": "https://i.ibb.co/WWjMxSF/NAIRMAX1.webp",
+        "category": "NIKE"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "model": "NIKE AIR MAX ZM950",
         "price": 44949,
         "alt" : "AIR MAX ZM950",
-        "img": "https://i.ibb.co/5MqSpHf/NAIRMAXZ9.webp"
+        "img": "https://i.ibb.co/5MqSpHf/NAIRMAXZ9.webp",
+        "category": "NIKE"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "model": "BLAZER LOW 77",
         "price": 32199,
         "alt" : "BLAZER LOW 77",
-        "img": "https://i.ibb.co/RDDSnK6/NBLAZERLOW.webp"
+        "img": "https://i.ibb.co/RDDSnK6/NBLAZERLOW.webp",
+        "category": "NIKE"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "model": "NMD R1",
         "price": 47999,
         "alt" : "NMD R1",
-        "img": "https://i.ibb.co/YXkTFmx/A-NMD.webp"
+        "img": "https://i.ibb.co/YXkTFmx/A-NMD.webp",
+        "category": "ADIDAS"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "model": "SUPERSTAR 82",
         "price": 35999,
         "alt" : "SUPERSTAR 82",
-        "img": "https://i.ibb.co/Pjtkt5v/A-SUPER.webp"
+        "img": "https://i.ibb.co/Pjtkt5v/A-SUPER.webp",
+        "category": "ADIDAS"
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "model": "FORUM LOW",
         "price": 36999,
         "alt" : "FORUM LOW",
-        "img": "https://i.ibb.co/1sN1D1t/AFORUMLOW.webp"
+        "img": "https://i.ibb.co/1sN1D1t/AFORUMLOW.webp",
+        "category": "ADIDAS"
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "model": "FORUM LOW WHITE",
         "price": 36999,
         "alt" : "FORUM LOW WHITE",
-        "img": "https://i.ibb.co/MPwQsxx/AFORUMLOWWHITE.webp"
+        "img": "https://i.ibb.co/MPwQsxx/AFORUMLOWWHITE.webp",
+        "category": "ADIDAS"
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "model": "SUPERSTAR",
         "price": 34999,
         "alt" : "SUPERSTAR",
-        "img": "https://i.ibb.co/RDDSnK6/NBLAZERLOW.webp"
+        "img": "https://i.ibb.co/RDDSnK6/SUPERSTAR.webp",
+        "category": "ADIDAS"
     },
     {
         "id": 12,
@@ -93,6 +104,7 @@
         "model": "ORIGINALS FORUM MID",
         "price": 37999,
         "alt" : "FORUM MID",
-        "img": "https://i.ibb.co/dtZ1yPL/A-ORIGINALS.webp"
+        "img": "https://i.ibb.co/dtZ1yPL/A-ORIGINALS.webp",
+        "category": "ADIDAS"
     }
 ]

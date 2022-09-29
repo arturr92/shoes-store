@@ -22,8 +22,8 @@ export const NavBar = () => {
                 <CartWidget className='brand'/>
                 <div className={`nav__links  ${clicked ? 'active' : ''}`}>
                         <Link to="/">Inicio</Link>
-                        <Link to="/productos">Productos</Link>
-                        <Link to="/novedades">Novedades</Link>
+                        <Link to="/categoria/nike">Nike</Link>
+                        <Link to="/categoria/adidas">Adidas</Link>
                         <Link to="/nosotros">Nosotros</Link>
                         <Link to="/contactos">Contactos</Link>
                         <Link to="/cart">

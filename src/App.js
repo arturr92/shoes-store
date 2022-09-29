@@ -23,6 +23,7 @@ function App() {
             text = "center"
             size = "4rem"
             />} />
+            <Route path='/categoria/:categoriaId' element={<ItemListContainer />} />
             <Route path='/detalle/:detailId' element={<ItemDetailContainer />} />
             <Route path='/cart' element={<Cart />} />
           </Routes>
